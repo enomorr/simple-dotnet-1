@@ -1,0 +1,7 @@
+states:
+- stage: continuous_integration
+  jobs:
+  - job: Build
+    steps:
+    - script: dotnet restore
+    - script: dotnet build
