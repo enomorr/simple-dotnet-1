@@ -10,5 +10,5 @@ stages:
     - script: dotnet restore
       displayName: Restoring
     - script: dotnet build
-      displayName: dotnet building
+      displayName: dotnet build
     - script: dotnet run
