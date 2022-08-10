@@ -3,5 +3,7 @@ stages:
   jobs:
   - job: Build
     steps:
+    - script: dotnet --verion
     - script: dotnet restore
     - script: dotnet build
+    - script: dotnet run
