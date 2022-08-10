@@ -6,9 +6,9 @@ stages:
     displayName: Building stage
     steps:
     - script: dotnet --version
-      displayNmae: check version
+      displayName: check version
     - script: dotnet restore
       displayName: Restoring
     - script: dotnet build
-      dispalyName: dotnet building
+      displayName: dotnet building
     - script: dotnet run
