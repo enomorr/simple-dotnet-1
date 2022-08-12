@@ -1,10 +1,10 @@
 # to create new dotnet mvc project
-dotnet new mvc -n projectName
+- dotnet new mvc -n projectName
 
 # to build and package
-dotnet restore projectName.csproj
-dotnet build projectName.csproj --configuration Release
-dotnet publish projectName.csproj --configuration Release --output "directory path"
+- dotnet restore projectName.csproj
+- dotnet build projectName.csproj --configuration Release
+- dotnet publish projectName.csproj --configuration Release --output "directory path"
 
 
 
